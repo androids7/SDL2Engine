@@ -88,7 +88,7 @@ void GraphicsFrameWork::DrawLines(SDL_Point *point,int count, int r, int g, int 
 
 void DrawCircle(SDL_Renderer *ren,int radius){
     using std::cout;
-    using std::clock;
+    //using std::clock;
     using std::endl;
     int st=clock(),tx=0,ty=radius,d=3-(radius<<1),x=radius,y=radius;
 	while(tx<ty){
@@ -113,8 +113,8 @@ void DrawCircle(SDL_Renderer *ren,int radius){
                 SDL_RenderDrawPoint(ren,i,y-tx);
 				SDL_RenderDrawPoint(ren,i,y+tx);
 		}
-    int en=clock();
-    cout<<"Drawing Circle(radius "<<radius<<" pixels),costs:"<<en-st<<"ms"<<endl;
+  //  int en=clock();
+    //cout<<"Drawing Circle(radius "<<radius<<" pixels),costs:"<<en-st<<"ms"<<endl;
 }
 
 

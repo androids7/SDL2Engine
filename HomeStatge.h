@@ -1,5 +1,5 @@
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include "GraphicsFrameWork.h"
 class HomeStatge {
 	

@@ -1,8 +1,8 @@
 #pragma once
 #include "GraphicsFrameWork.h"
 //#include "Stage.h"
-#include <SDL2/SDL.h>
-
+#include <SDL.h>
+#include <string.h>
 
 #include "HashFuncEqualKey.h"
 #include "HashMap.h"

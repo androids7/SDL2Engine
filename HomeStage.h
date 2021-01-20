@@ -1,5 +1,5 @@
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include "GraphicsFrameWork.h"
 #include "Context.h"
 class HomeStage :Stage{
